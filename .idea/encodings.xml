@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/net.n3.nanoxml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/org.jhotdraw7.application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/org.jhotdraw7.draw/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/org.jhotdraw7.nanoxml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/org.jhotdraw7.samples.draw/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/org.jhotdraw7.samples.misc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/org.jhotdraw7.samples.net/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/org.jhotdraw7.samples.odg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/org.jhotdraw7.samples.pert/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/org.jhotdraw7.samples.svg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/org.jhotdraw7.samples.teddy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

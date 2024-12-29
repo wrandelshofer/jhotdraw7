@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="org.jhotdraw7.samples.misc" />
+        <module name="org.jhotdraw7.draw" />
+        <module name="org.jhotdraw7.samples.draw" />
+        <module name="org.jhotdraw7.application" />
+        <module name="org.jhotdraw7.samples.net" />
+        <module name="net.n3.nanoxml" />
+        <module name="org.jhotdraw7.nanoxml" />
+        <module name="org.jhotdraw7.samples.odg" />
+        <module name="org.jhotdraw7.samples.teddy" />
+        <module name="org.jhotdraw7.samples.pert" />
+        <module name="org.jhotdraw7.samples.svg" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="net.n3.nanoxml" options="-Xlint" />
+      <module name="org.jhotdraw7" options="-Xlint" />
+      <module name="org.jhotdraw7.application" options="-Xlint" />
+      <module name="org.jhotdraw7.draw" options="-Xlint" />
+      <module name="org.jhotdraw7.nanoxml" options="-Xlint" />
+      <module name="org.jhotdraw7.samples.draw" options="-Xlint" />
+      <module name="org.jhotdraw7.samples.misc" options="-Xlint" />
+      <module name="org.jhotdraw7.samples.net" options="-Xlint" />
+      <module name="org.jhotdraw7.samples.odg" options="-Xlint" />
+      <module name="org.jhotdraw7.samples.pert" options="-Xlint" />
+      <module name="org.jhotdraw7.samples.svg" options="-Xlint" />
+      <module name="org.jhotdraw7.samples.teddy" options="-Xlint" />
+    </option>
+  </component>
+</project>

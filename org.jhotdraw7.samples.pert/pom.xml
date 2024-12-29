@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+  ~ @(#)pom.xml
+  ~ Copyright © 2023 The authors and contributors of JHotDraw. MIT License.
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>ch.randelshofer</groupId>
+    <artifactId>org.jhotdraw7</artifactId>
+    <version>${revision}</version>
+  </parent>
+  <artifactId>org.jhotdraw7.samples.pert</artifactId>
+  <packaging>jar</packaging>
+
+  <name>jhotdraw7 Examples</name>
+  <description>jhotdraw7</description>
+  <developers>
+    <developer>
+      <name>Werner Randelshofer</name>
+      <email>werner.randelshofer@bluewin.ch</email>
+      <organization>ch.randelshofer</organization>
+      <organizationUrl>http://www.randelshofer.ch</organizationUrl>
+    </developer>
+  </developers>
+
+  <build>
+    <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
+    <testSourceDirectory>${basedir}/src/test/java</testSourceDirectory>
+    <resources>
+      <resource>
+        <directory>${basedir}/src/main/java</directory>
+        <excludes>
+          <exclude>**/*.java</exclude>
+        </excludes>
+      </resource>
+
+    </resources>
+    <testResources>
+      <testResource>
+        <directory>${basedir}/src/test/java</directory>
+        <excludes>
+          <exclude>**/*.java</exclude>
+        </excludes>
+      </testResource>
+
+    </testResources>
+
+    <plugins>
+      <plugin>
+        <!-- http://docbkx-tools.sourceforge.net/docbkx-samples/manual.html -->
+        <groupId>com.agilejava.docbkx</groupId>
+        <artifactId>docbkx-maven-plugin</artifactId>
+        <version>2.0.17</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>generate-html</goal>
+              <goal>generate-xhtml5</goal>
+              <goal>generate-pdf</goal>
+              <goal>generate-epub3</goal>
+            </goals>
+            <phase>pre-site</phase>
+          </execution>
+        </executions>
+        <configuration>
+          <xincludeSupported>true</xincludeSupported>
+          <chunkQuietly>true</chunkQuietly>
+          <showXslMessages>true</showXslMessages>
+          <includes>**/*.xml</includes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.jspecify</groupId>
+      <artifactId>jspecify</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>ch.randelshofer</groupId>
+      <artifactId>org.jhotdraw7.application</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>ch.randelshofer</groupId>
+      <artifactId>org.jhotdraw7.draw</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <scope>test</scope>
+    </dependency>
+
+  </dependencies>
+</project>
